@@ -1,21 +1,21 @@
 import './App.css';
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 
 
 
 function App() {
-  const [state,setState] =useState(0)
-    useEffect(async() => {
-      try {
-        const res = await fetch(`.netlify/functions/slsfunc?name=from serverless function trigered in use effect`)
-        const data =await  res.json()
-        console.log(data)
-        console.log('in use effect')
-        setState(data)
-      } catch (error) {
+  // const [state,setState] =useState(0)
+  //   useEffect(async() => {
+  //     try {
+  //       const res = await fetch(`.netlify/functions/slsfunc?name=from serverless function trigered in use effect`)
+  //       const data =await  res.json()
+  //       console.log(data)
+  //       console.log('in use effect')
+  //       setState(data)
+  //     } catch (error) {
         
-      }
-    },[])
+  //     }
+  //   },[])
   return (
     <div className="App">
     <h2>To deploy on netlify serverless,first simply deploy react app on netlify</h2>
