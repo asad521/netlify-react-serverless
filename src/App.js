@@ -5,7 +5,10 @@ import React,{useState,useEffect} from 'react'
 
 function App() {
   const [state,setState] =useState(0)
-    useEffect(async() => {
+    useEffect(() => {
+      slsfunction();
+    },[])
+    const slsfunction=async () => {
       try {
         const res = await fetch(`.netlify/functions/slsfunc?name=from serverless function trigered in use effect`)
         const data =await  res.json()
@@ -15,7 +18,7 @@ function App() {
       } catch (error) {
         
       }
-    },[])
+    }
   return (
     <div className="App">
     <h2>To deploy on netlify serverless,first simply deploy react app on netlify</h2>
