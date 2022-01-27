@@ -1,10 +1,10 @@
 import './App.css';
-import React,{useEffect,useState} from 'react'
+import React from 'react'
 
 
 
 function App() {
-  const [state,setState] =useState(0)
+  // const [state,setState] =useState(0)
     // useEffect(async() => {
     //   try {
     //     const res = await fetch(`.netlify/functions/func2sls?name=from serverless function`)
