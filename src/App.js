@@ -24,6 +24,7 @@ function App() {
     <h2>create the netlify function lj;adfadf</h2>
     <h2>create the netlify function lj;adfadf</h2>
     <h2>create the netlify function lj;adfadf</h2>
+    <h2>create the netlify function lj;adfadf</h2>
     {/* <h1>{state.message}</h1> */}
   
     </div>
