@@ -23,6 +23,7 @@ function App() {
     <h2>create the netlify function </h2>
     <h2>create the netlify function </h2>
     <h2>create the netlify function </h2>
+    <h2>create the netlify function </h2>
     <h2>netlify.toml file does not mattter. just tell your location on github </h2>
     <h1>{state.message}</h1>
   
